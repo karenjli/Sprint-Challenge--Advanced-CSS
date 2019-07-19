@@ -1,11 +1,14 @@
 // Navigation code here
 .header-content {
-   .container();
+     .container;
    text-align: center;
-
+  
+   
     h1 {
+        .container;
         font-size: 3.6rem;
-        padding: 15px;
+        padding: 12px;
+        .shadow (red);
     }
 
     .nav-tags a {
@@ -13,10 +16,15 @@
        text-decoration: none;
        font-size: 1.6rem;
        color: @header-font-color;
+    }
+       a:hover {
+           background-color: @header-font-color;
+           color: @wild-sand;
+       }
 
        @media @phone {
-           margin: 15px;
+           margin: 10px;
        }
 
     }
-}
+
