@@ -160,6 +160,22 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.header-content {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.header-content h1 {
+  font-size: 3.6rem;
+  padding: 15px;
+}
+.header-content .nav-tags a {
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #23293B;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +185,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro .header-img {
+  margin: 10px 0;
+  border-radius: 8px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -211,6 +231,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text button {
+  border-radius: 5px;
+  color: #F6F6F6;
+  background-color: #23293B;
+  font-size: 1.6rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Ubuntu";
 }
 .home .walk .walk-img {
   width: 46%;
