@@ -33,15 +33,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
-
+The difference between an adaptive website and a fully responsive website is that the layout widht is hard coded in adaptive websites and it is necessary to create multiple layouts for various screen sizes. Responsive websites accommodates to the width of any device width without having to create multiple layouts.
 2. Describe what it means to be mobile first vs desktop first.
-
+Mobile first means desiging and coding for a mobile device first, then expand the layout and features to accommodate the bigger screen sizes. "Min-width" is used when desigining/coding mobile first. Desktop-first is the opposite of mobile first where the design and code are done for the desktop version first. The layout is then shrink to accommodate smaller screen sizes using "max-width"
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
+By setting 'font-size: 62.5%" in the html tag, it sets 1 rem = 10px.
 4. How would you describe preprocessing to someone new to CSS?
-
+Preprocessing provides flexibility to writing CSS by allowing the use of variables, mixins and nesting. It reduces the need to write repeated/similar code. CSS styling can also be grouped in a more systematic way to reflect the html layout. 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-
+My favorite concept in preprocessing is variables because it simplies the process of coding and deploying changes in the future. I find parametric mixins to be a little troubling at times because it does not run as smoothly when I try to pass in more than 1 variable. 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up

@@ -1,1 +1,32 @@
 // Mixins Here
+
+.btnRadius (@radius) {
+    border-radius: @radius;
+   }
+
+.padding (@topbottom, @leftright) {
+    padding-top: @topbottom;
+    padding-bottom: @topbottom;
+    padding-left: @leftright;
+    padding-right: @leftright;
+}
+
+.hidden {
+    @media @phone{
+    display: none;
+    }
+}
+
+.full-size {
+    width: 100%;
+}
+
+.shadow (@color) {
+    text-shadow: 2px 2px @color;
+}
+
+.container {
+max-width: 800px;
+  width: 100%;
+  margin: 0 auto; 
+}
